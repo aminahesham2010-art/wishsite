@@ -1,0 +1,29 @@
+@font-face {
+    font-family: mainfont;
+    src: url(streetwear.woff2);
+}
+
+body{
+    background: linear-gradient(150deg,#ffffffec,#92d3e7ec,#7a72e4ec,#1a0cd3ec);
+font-family: mainfont,sans-serif;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+#caption{
+    width: 100vw;
+    text-align: center;
+    font-size: 10vw;
+    text-shadow: 0 0 13px rgb(47, 20, 201);
+}
+#name{
+  width: 100vw;
+  text-align: center;
+  font-size: 8vw;
+  color: white;
+  margin-top: 30px;
+}
+#boximage img{
+    width: 70vw;
+    margin-left: 15vw;
+}
