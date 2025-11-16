@@ -41,6 +41,9 @@ font-family: mainfont,sans-serif;
 }
 
   @media (max-width: 500px) {
+    body{
+            background: linear-gradient(150deg,#ffffffec,#92d3e7ec,#7a72e4ec,#1a0cd3ec);
+    }
     #caption{
         font-size: 10vw;
     }
@@ -54,6 +57,9 @@ font-family: mainfont,sans-serif;
 
   /* От 501 до 1000 пикселей — жёлтый фон */
   @media (min-width: 501px) and (max-width: 1000px) {
+    body{
+            background: linear-gradient(150deg,#61204bec,#0e83a7ec,#132019ec,#20ec75ec);
+    }
    #caption{
         font-size: 4vw;
     }
