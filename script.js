@@ -37,7 +37,7 @@ function createSnowflake(){
     snowflake.style.left=Math.random()*100+"vw";
     snowflake.classList.add("snowflake");
     var size=Math.random();
-    snowflake.style.fontSize=size * 25 +"px";
+    snowflake.style.fontSize=size * 40 +"px";
     snowflake.style.animationDuration=17-size*10+"s";
     document.body.appendChild(snowflake);
 
