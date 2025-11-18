@@ -91,3 +91,19 @@ font-family: mainfont,sans-serif;
         width: 30vw;
     }
   }
+
+  @keyframes snowfall {
+    to{
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    
+  }
+  .snowflake{
+    color: rgb(176, 202, 224);
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+    animation: snowfall linear forwards;
+    text-shadow: 0 0 4px indigo;
+  }
