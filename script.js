@@ -48,3 +48,19 @@ function createSnowflake(){
 
 
 setInterval(createSnowflake,200);
+
+
+function countdown(){
+    var targetTime= new Date("January 1, 2026 00:00:00").getTime();
+    var currentTime=new Date().getTime();
+    var restTime=targetTime-currentTime;
+    var days=Math.floor(restTime/(1000*60*60*24));
+    var hours=Math.floor((restTime%(1000*60*60*24))/(1000*60*60));
+    var minutes=Math.floor((restTime%(1000*60*60))/(1000*60));
+    var seconds=Math.floor((restTime%(1000*60))/1000);
+    var text=`${days} days ${hours} hours ${minutes} minutes ${seconds} seconds `;
+    document.getElementById("countdown").innerHTML=text;
+}
+
+countdown();
+setInterval(countdown,1000);

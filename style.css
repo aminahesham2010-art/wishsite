@@ -40,6 +40,14 @@ font-family: mainfont,sans-serif;
     display: flex;
 }
 
+  #countdown{
+    width: 100vw;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    color: rgb(243, 19, 187);
+  }
+
   @media (max-width: 500px) {
     body{
             background: linear-gradient(150deg,#ffffffec,#92d3e7ec,#7a72e4ec,#1a0cd3ec);
@@ -53,6 +61,10 @@ font-family: mainfont,sans-serif;
     #boxwish{
         flex-direction: column;
     }
+      #countdown{
+    
+    font-size: 1em;
+  }
   }
 
   /* От 501 до 1000 пикселей — жёлтый фон */
@@ -73,13 +85,19 @@ font-family: mainfont,sans-serif;
     #name{
         font-size: 3vw;
         width: 30vw;
+
     }
 
     #boximage {
 
     max-height: 300px;
+
     
 }
+  #countdown{
+    
+    font-size: 2em;
+  }
   }
 
   /* От 1001 пикселя и выше — зелёный фон */
@@ -114,3 +132,5 @@ font-family: mainfont,sans-serif;
     animation: snowfall linear forwards;
     text-shadow: 0 0 4px indigo;
   }
+
+
