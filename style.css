@@ -6,10 +6,11 @@
 body{
     background: linear-gradient(150deg,#ffffffec,#92d3e7ec,#7a72e4ec,#1a0cd3ec);
 font-family: mainfont,sans-serif;
-    background-size: 100%;
+    background-size: 125%;
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y: hidden;
+    width: 100vw;
 }
 
 #caption{
