@@ -24,7 +24,8 @@ font-family: mainfont,sans-serif;
   width: 100vw;
   text-align: center;
   font-size: 8vw;
-  color: white;
+  text-shadow: 0 0 13px rgb(47, 20, 201);
+    color: rgb(0, 0, 0);
   margin-top: 30px;
 }
 
@@ -42,8 +43,8 @@ font-family: mainfont,sans-serif;
     width: 100vw;
     text-align: center;
     font-size: 3em;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
-    color: rgb(243, 19, 187);
+   text-shadow: 0 0 13px rgb(47, 20, 201);
+    color: rgb(0, 0, 0);
   }
 
   @media (max-width: 500px) {
@@ -62,6 +63,8 @@ font-family: mainfont,sans-serif;
       #countdown{
     
     font-size: 1em;
+    position: absolute;
+    bottom: 10vh;
   }
   #boximage img{
     width: 70vw;
@@ -84,7 +87,7 @@ font-family: mainfont,sans-serif;
         align-items: center;
         align-content: center;
         justify-content:space-around;
-        margin-top: -100px;
+        margin-top: -5vh;
     }
     #name{
         font-size: 3vw;
@@ -94,7 +97,7 @@ font-family: mainfont,sans-serif;
 
     #boximage {
 
-    height: 300px;
+    height: 50vh;
 
     
 }
@@ -123,6 +126,11 @@ font-family: mainfont,sans-serif;
     width: 70vw;
     max-width: 400px;
     
+}
+
+#countdown{
+  position: absolute;
+  bottom: 5vh;
 }
   }
 

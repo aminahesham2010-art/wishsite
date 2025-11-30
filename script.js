@@ -11,11 +11,15 @@ hammer.on("swiperight",()=>{
 });
 function next(){
     currentItem++;
+    if(currentItem>=wishesAndAppr.length)
+        currentItem=0
     changeObject();
    
 }
 function previous(){
     currentItem--;
+    if(currentItem<0)
+        currentItem=wishesAndAppr.length-1;
    changeObject();
 }
 
