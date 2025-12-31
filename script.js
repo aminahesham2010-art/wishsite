@@ -58,6 +58,10 @@ function countdown(){
     var targetTime= new Date("January 1, 2026 00:00:00").getTime();
     var currentTime=new Date().getTime();
     var restTime=targetTime-currentTime;
+    if(restTime<0){
+         document.getElementById("countdown").innerHTML="happy new year!!";
+         return;
+    }
     var days=Math.floor(restTime/(1000*60*60*24));
     var hours=Math.floor((restTime%(1000*60*60*24))/(1000*60*60));
     var minutes=Math.floor((restTime%(1000*60*60))/(1000*60));
